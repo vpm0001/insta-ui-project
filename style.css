@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: sans-serif;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.page1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.text{
+    height: 30%;
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 28vh;
+    display: flex;
+    gap: 80px;
+    writing-mode: vertical-rl;
+}
+
+.text h1{
+    font-size: 26px;
+    color: rgb(33, 31, 31);
+    transform: rotate(180deg);
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    height: 100px;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+}
+
+.nav img{
+    height: 30px;
+    width: 30px;
+
+}
+
+.nav .profile{
+    border-radius: 50%;
+    height: 40px;
+    width: 45px;
+    padding-left: 9px;
+}
+
+
+
+.nav-text{
+    position: absolute;
+    left: 50%;
+    display: flex;
+    gap: 50px;
+   
+}
+
+.nav-text h1{
+    font-size: 18px;
+}
+
+
+.page1-m .black{
+    height: 700px;
+    width: 440px;
+    background-color: rgb(40, 40, 40);
+    position: absolute;
+    top: 0;
+    left: 14vw;
+
+}
+.page1-m{
+    overflow: hidden;
+    position: absolute;
+    z-index: 9;
+    height: 1000px;
+    width: 1000px;
+    top: 0%;
+    
+   
+}
+
+.black h1{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 26%;
+    top: 11%;
+}
+
+
+.page1-m img{
+    overflow: hidden;
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    padding: 10px;
+    top: -6vh;
+    left: -3vw;
+    z-index: 9;
+    
+}
+
+
+
+.page1-text{
+    height: 500px;
+    width: 500px;
+    
+    position: absolute;
+    left: 55% ;
+    top: 25%;
+
+}
+
+
+.page1-text h1{
+    font-size: 70px;
+    color: rgb(36, 35, 35);
+    margin-bottom: 1.5vh;
+}
+
+.page1-text p{
+    font-size: 20px;
+    color: rgb(40, 39, 39);
+    opacity: 0;
+    
+}
+.price{
+    position: absolute;
+    top: 33%;
+    display: flex;
+    gap: 10vw;
+}
+
+.price h1{
+    margin-top: 3.3vh;
+    font-size: 45px;
+    color: rgb(184, 24, 24);
+}
+
+.price h1 span{
+    color: black;
+    display: block;
+    position: absolute;
+    top:75%;
+    left: 1%;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.price button{
+    margin-top: 3vh;
+    border: none;
+    background-color: rgb(29, 28, 28);
+    padding: 0 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.price-cont{
+    position: relative;
+    top: 60%;
+    z-index: 10;
+}
+
+.price-tag{
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(60, 40, 40);
+    position: absolute;
+    bottom: 9%;
+    left: 14%;
+    cursor: pointer;
+    
+}
+
+
+
+.price-tag1{
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(60, 40, 40);
+    position: absolute;
+    bottom: 9%;
+    left: 34%;
+}
+
+.price-tag2{
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(60, 40, 40);
+    position: absolute;
+    bottom: 9%;
+    left: 54%;
+}
+
+.price-tag3{
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(60, 40, 40);
+    position: absolute;
+    bottom: 9%;
+    left: 74%;
+}
+
+.price-tag img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -5.7vh;
+    left: -4vw;
+
+}
+
+.price-tag h1{
+    font-size: 20px;
+    position: absolute;
+    left: 8vw;
+    color: white;
+    top:20%;
+
+}
+
+.price-tag h1:nth-child(3){
+    font-size: 18px;
+    position: absolute;
+    top: 46%;
+    left: 9%;
+}
+
+.price-tag h1:nth-child(3) span{
+    font-size: 10px;
+    display: block;
+
+}
+
+.price-1{
+    display: flex;
+    align-items: center;
+}
+
+
+.price-1 p{
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    color: white;
+}
+
+.price-1 img{
+    position: absolute;
+    top: 84%;
+    left: 80%;
+    height: 13px;
+    width: 13px;
+
+    
+}
